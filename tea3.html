@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link href="css/video-js.min.css" rel="stylesheet" type="text/css">
+    <script src="js/video.min.js"></script>
+    <script>
+    videojs.options.flash.swf = "video-js.swf";
+    </script>
+	</head>
+	<body>
+	<header>
+		<h1><img src="img/logo.png" width="60px" height="40px" />Dessert 小铺</h1>
+	</header>
+    <div class="menuDiv">
+        <ul>
+            <li>
+                <a href="index.html">首页</a>
+            </li> 
+            <li>
+                <a href="introduction.html">公司简介</a>
+            </li> 
+            <li>
+                <a href="map.html">公司地图</a>
+            </li> 
+            <li>
+                <a href="">茶点</a>
+                 <ul>
+                    <li><a href="tea1.html">福鼎白茶</a></li>
+                    <li><a href="tea2.html">工艺花茶</a></li>
+                    <li><a href="tea3.html">云南普洱</a></li>
+                </ul>
+            </li> 
+            <li>
+                <a href="index.html">零食分类</a>
+                <ul>
+                    <li><a href="index.html">坚果炒货</a></li>
+					<li><a href="index.html">果干蜜饯</a></li>
+					<li><a href="index.html">糖果布丁</a></li>
+					<li><a href="index.html">糕点点心</a></li>
+                </ul>
+            </li> 
+        </ul>
+    </div>
+	<div id="container3">
+    		<ul class="column">
+        <div class="nr">
+            <div class="tea3">
+                 <h3>云南普洱</h3>
+                  <video id="example_video_1" class="video-js vjs-default-skin" controls preload="none" 
+                   poster="http://video-js.zencoder.com/oceans-clip.png"
+                    data-setup="{}">
+                   <source src="video/云南普洱.mp4" type='video/mp4' />
+                   <track kind="captions" src="demo.captions.vtt" srclang="en" label="English"></track>
+                   <track kind="subtitles" src="demo.captions.vtt" srclang="en" label="English"></track>
+                   </video>
+                   <script type="text/javascript">
+                   var myPlayer = videojs('example_video_1'); 
+                   myPlayer.ready(function(){
+                   myPlayer.play();   
+                   myPlayer.size(550,580);
+                   });
+                 </script>
+            <div class="content3">
+                <h4>产地</h4>
+                <P>主要产于云南省的西双版纳、临沧、普洱等地区。</P>
+                <h4>饮用方法</h4>
+                <P>其饮用方法丰富，既可清饮，也可混饮。</P>
+                <h4>特性</h4>
+                <P>茶汤橙黄浓厚，香气高锐持久，香型独特，经久耐泡。具有降低血脂、减肥、暖胃、止渴、醒酒解毒等功能。</P>
+            </div>
+            </div>
+            </div>
+        </div>
+		</div>
+		
+	
+    <footer>
+        <div>
+           <h3>关于我们</h3>
+           <p>我们公司</p>
+           <p>投资者</p>
+           <p>合作商</p>
+        </div>
+        <div>
+            <h3>为企业服务</h3>
+            <p>办公室咖啡</p>
+            <p>餐饮服务</p>
+            <p>供货商</p>
+        </div>
+        <div>
+            <h3>网上社区</h3>
+            <p>百度贴吧</p>
+            <p>新浪微博</p>
+            <p>腾讯部落</p>
+        </div>
+        <div>
+            <h3>快速链接</h3>
+            <p>我的账户</p>
+            <p>网上商城</p>
+            <p>营养服务</p>
+        </div>
+        <div>
+            <h3>关于公司|法律条款|隐私权声明</h3>
+            <p>2018&copy; zhaowenhui</p>
+        </div>
+    </footer>
+</body>
+</html>
