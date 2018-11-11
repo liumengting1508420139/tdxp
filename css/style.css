@@ -20,7 +20,7 @@ a{
 }
 
 
-}
+
 h1 {
 	font-size: 36px;
 	margin-left: 100px;
@@ -38,7 +38,14 @@ h3 {
 	font-size: 18px;
 	padding: 10px 0;
 	}
-
+h4 {
+	font-size: 18px;
+	padding: 10px 0;
+	}
+h5 {
+	font-size: 14px;
+	padding: 10px 0;
+	}
 p {
 	padding-bottom: 20px;
 	}
@@ -161,6 +168,47 @@ p {
 #content .block a {
 	color: #FFF;
 	}
+
+#container1 {
+	position: relative;
+	margin-top: 0px;
+	width: 920px; 
+	margin:10px 5px 10px 0; 
+	padding:5px 20px 5px 20px;
+	background-color: #f2ede7;
+	z-index: -100;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	}
+#content1 {
+	float: left; 
+	width: 60%; 
+}
+#photo {
+	float: right;
+	width: 35%; 
+}
+
+#container3 {
+	position: relative;
+	width: 920px; 
+	margin:10px 5px 10px 0; 
+	padding:5px 20px 5px 20px;
+	background-color: #f2ede7;
+	z-index: -100;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	}
+#content3 {
+	float: right; 
+	width: 100px; 
+}
+#example_video_1 {
+	float: left;
+	width: 530px; 
+	height: 300px;
+}
+
 	
 footer {
 	width: 960px;
@@ -214,3 +262,15 @@ footer div a:hover {
 .map{
 	height: 700px;
 }
+
+.tea1{
+	height: 900px;
+}
+.tea2{
+	height: 900px;
+
+}
+.tea3{
+	height: 900px;
+}
+
