@@ -274,3 +274,271 @@ footer div a:hover {
 	height: 900px;
 }
 
+.list_main
+{
+    min-height: 350px;
+   _height: 350px;
+    background-color: #FFF;
+    margin-top: 10px;
+}
+
+.news_type
+{
+    width: 220px;
+    height: 350px;
+    border: 1px solid #E8E8E8;
+    float: left;
+}
+
+/* .list_box
+{
+    width: 770px;
+    min-height: 350px;
+    _height:350px;
+    border: 1px solid #E8E8E8;
+    float: right;
+} */
+
+.news_type h2
+{
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    font-family: "微软雅黑";
+    color: #666;
+    background:url(../img/titile_bg.gif) repeat-x;
+    padding-left:20px;
+}
+
+.news_type_content
+{
+    height:36px;
+	background:url(../img/content_bg.gif) repeat-x
+}
+
+.news_type_content li
+{
+    list-style-type: none;
+    height: 30px;
+    line-height: 30px;
+}
+
+.news_type_content li a
+{
+    color: #666;
+    text-decoration: none;
+   background:url(../img/li_bg.gif) no-repeat left center; 
+    padding: 15px;
+    display: block;
+}
+
+.news_type_content li a:hover
+{
+    color: #009CDF;
+	/* background:url(../img/li_bg2.gif) no-repeat left center; */
+	background-color: #F2F2F2;   
+}
+
+.list_box h2
+{
+    font-size: 14px;
+    font-family: "微软雅黑";
+    color: #666;
+    height: 35px;
+    line-height: 35px;
+	background:url(../img/type_bg.png) repeat-x;
+	padding: 20px;
+	margin-bottom: 10px;
+}
+
+.news_list
+{
+    margin-top:20px;
+}
+
+.news_list li
+{
+    list-style-type: none;
+	 /* background:url(../img/list.jpg) no-repeat;  */
+    padding-left: 10px;
+    margin: 8px;
+    border-bottom: 1px dotted #CCC;
+}
+
+.news_list a:link,.news_list a:visited
+{
+    text-decoration: none;
+    color: #000;
+}
+
+.news_list a:hover,.news_list a:active
+{
+    text-decoration: none;
+    color:#F00;
+}
+
+.news_list1
+{
+    margin-top:20px;
+}
+
+.news_list1 li
+{
+    list-style-type: none;
+	/* background:url(../img/list.jpg) no-repeat; */
+    padding-left: 10px;
+    margin: 8px;
+    border-bottom: 1px dotted #CCC;
+}
+
+.news_list1 a:link,.news_list1 a:visited
+{
+    text-decoration: none;
+    color: #000;
+}
+
+.news_list1 a:hover,.news_list1 a:active
+{
+    text-decoration: none;
+    color:#F00;
+}
+
+.news_list2
+{
+    margin-top:20px;
+}
+
+.news_list2 li
+{
+    list-style-type: none;
+	/* background:url(../img/list.jpg) no-repeat; */
+    padding-left: 10px;
+    margin: 8px;
+    border-bottom: 1px dotted #CCC;
+}
+
+.news_list2 a:link,.news_list2 a:visited
+{
+    text-decoration: none;
+    color: #000;
+}
+
+.news_list2 a:hover,.news_list2 a:active
+{
+    text-decoration: none;
+    color:#F00;
+}
+
+.news_list3
+{
+    margin-top:20px;
+}
+
+.news_list3 li
+{
+    list-style-type: none;
+	/* background:url(../img/list.jpg) no-repeat; */
+    padding-left: 10px;
+    margin: 8px;
+    border-bottom: 1px dotted #CCC;
+}
+
+.news_list3 a:link,.news_list3 a:visited
+{
+    text-decoration: none;
+    color: #000;
+}
+
+.news_list3 a:hover,.news_list3 a:active
+{
+    text-decoration: none;
+    color:#F00;
+}
+
+.news_list4
+{
+    margin-top:20px;
+}
+
+.news_list4 li
+{
+    list-style-type: none;
+	/* background:url(../img/list.jpg) no-repeat; */
+    padding-left: 10px;
+    margin: 8px;
+    border-bottom: 1px dotted #CCC;
+}
+
+.news_list4 a:link,.news_list4 a:visited
+{
+    text-decoration: none;
+    color: #000;
+}
+
+.news_list4 a:hover,.news_list4 a:active
+{
+    text-decoration: none;
+    color:#F00;
+}
+
+.co ul.cn {
+	width: 100%;
+	padding: 0;
+	margin: 10px 0;
+	list-style: none;
+}
+
+.co ul.cn li {
+	float: left;
+	width: 230px;
+	padding: 0;
+	margin: 5px 0;
+	display: inline;
+}
+
+.co .block {
+	height: 330px;
+	font-size: 1em;
+	margin-right: 10px;
+	padding: 20px;
+	background: #d6a965;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.co .block a {
+	color: #FFF;
+	}
+
+
+	.co1 ul.cn1 {
+		width: 100%;
+		padding: 0;
+		margin: 10px 0;
+		list-style: none;
+	}
+	
+	.co1 ul.cn1 li {
+		float: left;
+		width: 230px;
+		padding: 0;
+		margin: 5px 0;
+		display: inline;
+	}
+	
+	.co1 .block {
+		height: 330px;
+		font-size: 1em;
+		margin-right: 10px;
+		padding: 20px;
+		background: #d6a965;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+	}
+	
+	.co1 .block a {
+		color: #FFF;
+		}
+
+
+		
